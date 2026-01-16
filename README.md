@@ -280,7 +280,7 @@ Katkılarınız memnuniyetle karşılanır! Pull Request göndermekten çekinmey
 
 ## 📄 Lisans
 
-Bu proje **GPL v2 veya üstü** altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+This project is licensed under the **GNU General Public License v2.0 or later** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
