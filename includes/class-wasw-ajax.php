@@ -15,18 +15,37 @@ class WASW_Ajax
         check_ajax_referer('wasw_nonce', 'nonce');
         if (!current_user_can('edit_posts'))
             wp_send_json_error('Yetki hatası.');
+
+        // Lisans kontrolü
+        $license_check = WASW_License::can_generate_content();
+        if (!$license_check['allowed']) {
+            wp_send_json_error($license_check['message']);
+        }
+
         set_time_limit(900);
 
         $pid = intval($_POST['product_id']);
         $title = sanitize_text_field($_POST['title']);
         $step = sanitize_text_field($_POST['step']);
+
+        // Pro özellik kontrolleri
         $create_image = isset($_POST['create_image']) && $_POST['create_image'] === 'true';
         $create_short = isset($_POST['create_short']) && $_POST['create_short'] === 'true';
 
-        // PDF Referans İşleme
-        $pdf_url = isset($_POST['pdf_url']) ? esc_url_raw($_POST['pdf_url']) : '';
-        $pdf_attachment_id = isset($_POST['pdf_attachment_id']) ? intval($_POST['pdf_attachment_id']) : 0;
+        // Free plan'da görsel oluşturma kapalı
+        if ($create_image && !WASW_License::can_generate_image()) {
+            $create_image = false;
+        }
+
+        // PDF Referans İşleme - Pro özelliği
+        $pdf_url = '';
+        $pdf_attachment_id = 0;
         $pdf_content = '';
+
+        if (WASW_License::can_use_pdf()) {
+            $pdf_url = isset($_POST['pdf_url']) ? esc_url_raw($_POST['pdf_url']) : '';
+            $pdf_attachment_id = isset($_POST['pdf_attachment_id']) ? intval($_POST['pdf_attachment_id']) : 0;
+        }
 
         // Phase 1'de PDF içeriğini çıkar
         if ($step === 'phase_1' && ($pdf_url || $pdf_attachment_id)) {
@@ -152,6 +171,9 @@ class WASW_Ajax
         if (!current_user_can('edit_posts')) {
             wp_send_json_error('Yetki hatası.');
         }
+
+        // Lisans kullanım sayacını artır (Free plan için)
+        WASW_License::increment_usage();
 
         $pid = intval($_POST['product_id']);
 

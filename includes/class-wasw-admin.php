@@ -180,6 +180,7 @@ class WASW_Admin
                     <p>Rank Math & Yoast 100/100, Schema Markup, E-E-A-T & GEO Optimizasyonu</p>
                 </div>
                 <div style="display:flex; align-items:center; gap:15px;">
+                    <?php echo WASW_License::get_license_badge_html(); ?>
                     <?php echo WASW_SEO_Handler::get_plugin_status_html(); ?>
                     <a href="https://isapehlivan.com" target="_blank"
                         style="color:white; font-weight:bold; text-decoration:none; background:rgba(255,255,255,0.2); padding:8px 16px; border-radius:8px;">Destek</a>
@@ -195,6 +196,9 @@ class WASW_Admin
                 </a>
                 <a href="?page=woo-ai-seo&tab=report" class="wasw-nav-btn <?php echo $tab == 'report' ? 'active' : ''; ?>">
                     <span class="dashicons dashicons-chart-bar"></span> Geçmiş (İşlemler)
+                </a>
+                <a href="?page=woo-ai-seo&tab=license" class="wasw-nav-btn <?php echo $tab == 'license' ? 'active' : ''; ?>">
+                    <span class="dashicons dashicons-admin-network"></span> Lisans
                 </a>
             </div>
 
@@ -255,6 +259,16 @@ class WASW_Admin
                 </form>
 
             <?php elseif ($tab == 'bulk'): ?>
+                <?php if (!WASW_License::can_bulk_process()): ?>
+                    <div class="wasw-card wasw-pro-required">
+                        <div style="text-align:center; padding:40px;">
+                            <span style="font-size:48px;">🔒</span>
+                            <h3 style="margin:15px 0;">Pro Plan Gerekli</h3>
+                            <p style="color:#64748b;">Toplu işlem özelliği Pro plan ile kullanılabilir.</p>
+                            <a href="?page=woo-ai-seo&tab=license" class="wasw-btn wasw-btn-pro" style="margin-top:15px;">Pro'ya Yükselt</a>
+                        </div>
+                    </div>
+                <?php else: ?>
                 <div class="wasw-card">
                     <h3>🚀 Toplu İçerik Oluşturucu</h3>
                     <?php if (!empty($pre_selected_ids)): ?>
@@ -320,7 +334,8 @@ class WASW_Admin
                         </table>
                     </div>
                 </div>
-            <?php else:
+                <?php endif; ?>
+            <?php elseif ($tab == 'report'):
                 $paged = isset($_GET['paged']) ? max(1, intval($_GET['paged'])) : 1;
                 $search_query = isset($_GET['s']) ? sanitize_text_field($_GET['s']) : '';
                 $filter_type = isset($_GET['type']) ? sanitize_text_field($_GET['type']) : '';
@@ -458,6 +473,10 @@ class WASW_Admin
                         </div>
                     <?php endif; ?>
                 </div>
+
+            <?php elseif ($tab == 'license'): ?>
+                <?php WASW_License::render_license_page(); ?>
+
             <?php endif; ?>
         </div>
         <?php

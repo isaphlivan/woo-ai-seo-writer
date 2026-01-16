@@ -19,11 +19,13 @@ define('WASW_PLUGIN_URL', plugin_dir_url(__FILE__));
 require_once WASW_PLUGIN_DIR . 'includes/class-wasw-api.php';
 require_once WASW_PLUGIN_DIR . 'includes/class-wasw-seo-handler.php';
 require_once WASW_PLUGIN_DIR . 'includes/class-wasw-schema.php';
+require_once WASW_PLUGIN_DIR . 'includes/class-wasw-license.php';
 require_once WASW_PLUGIN_DIR . 'includes/class-wasw-ajax.php';
 require_once WASW_PLUGIN_DIR . 'includes/class-wasw-admin.php';
 
 function wasw_init()
 {
+    new WASW_License();
     new WASW_SEO_Handler();
     new WASW_Schema();
     new WASW_Ajax();

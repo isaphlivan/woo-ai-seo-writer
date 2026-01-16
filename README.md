@@ -1,272 +1,290 @@
 <p align="center">
   <img src="https://img.shields.io/badge/WordPress-5.0%2B-blue?logo=wordpress" alt="WordPress">
   <img src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php" alt="PHP">
-  <img src="https://img.shields.io/badge/WooCommerce-Compatible-96588A?logo=woocommerce" alt="WooCommerce">
+  <img src="https://img.shields.io/badge/WooCommerce-Uyumlu-96588A?logo=woocommerce" alt="WooCommerce">
   <img src="https://img.shields.io/badge/Rank%20Math-100%2F100-green" alt="Rank Math">
   <img src="https://img.shields.io/badge/Yoast%20SEO-100%2F100-green" alt="Yoast SEO">
-  <img src="https://img.shields.io/badge/License-GPL%20v2-orange" alt="License">
+  <img src="https://img.shields.io/badge/Lisans-GPL%20v2-orange" alt="Lisans">
 </p>
 
 <h1 align="center">🚀 Woo AI SEO Writer</h1>
 
 <p align="center">
-  <strong>AI-Powered SEO & GEO Content Generator for WordPress</strong><br>
-  <em>Achieve 100/100 SEO scores with Rank Math & Yoast SEO guaranteed!</em>
+  <strong>WordPress için Yapay Zeka Destekli SEO & GEO İçerik Üretici</strong><br>
+  <em>Rank Math & Yoast SEO ile 100/100 SEO skoru garantili!</em>
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-configuration">Configuration</a> •
-  <a href="#-usage">Usage</a> •
-  <a href="#-api-integration">API</a> •
-  <a href="#-license">License</a>
+  <a href="#-özellikler">Özellikler</a> •
+  <a href="#-planlar-ve-fiyatlandırma">Planlar</a> •
+  <a href="#-kurulum">Kurulum</a> •
+  <a href="#-kullanım">Kullanım</a> •
+  <a href="#-api-entegrasyonu">API</a> •
+  <a href="#-lisans">Lisans</a>
 </p>
 
 ---
 
-## ✨ Features
+## 💎 Planlar ve Fiyatlandırma
 
-### 🤖 AI-Powered Content Generation
-- **GPT-4o / GPT-4 Turbo / GPT-3.5** integration via OpenAI API
-- Automatically generates SEO-optimized product descriptions and blog posts
-- **AI Image Generation** with DALL-E for unique visuals
-- PDF reference support for technical accuracy
+| Özellik | 🎁 Deneme (Ücretsiz) | 👑 Pro |
+|---------|---------------------|--------|
+| **Süre** | 15 gün | Aylık |
+| **Fiyat** | ₺0 | ₺100/ay |
+| **Günlük İçerik** | 5 adet | ∞ Sınırsız |
+| **AI Görsel Oluşturma** | ❌ | ✅ |
+| **Toplu İşlem** | ❌ | ✅ |
+| **PDF Referans** | ❌ | ✅ |
+| **Öncelikli Destek** | ❌ | ✅ |
 
-### 🎯 SEO Plugin Compatibility
-- **Dual Plugin Support**: Works with both Rank Math and Yoast SEO
-- Automatic SEO plugin detection
-- Unified API for seamless meta data management
-- Focus keyword optimization
-- Meta title & description generation
-
-### 📊 Schema Markup (Structured Data)
-- **Product Schema** for WooCommerce products
-- **Article Schema** for blog posts
-- **FAQ Schema** - Auto-extracted from content
-- **HowTo Schema** - Auto-detected step-by-step guides
-- **Breadcrumb Schema** for enhanced SERP display
-- **WebPage Schema** for complete structured data
-
-### 🌍 GEO Optimization (Generative Engine Optimization)
-- E-E-A-T (Experience, Expertise, Authority, Trust) signals
-- Internal & external linking strategies
-- Content structure optimization for AI search engines
-- Rich snippet optimization
-
-### 🔧 Advanced Features
-- **Bulk Processing** - Generate content for multiple posts/products at once
-- **Progress Tracking** - Real-time progress indicators
-- **Export Reports** - Download SEO reports in CSV/Excel format
-- **Short Description Generator** - AI-powered product summaries
-- **Image SEO** - Automatic alt text and title optimization
+> 💡 **15 günlük ücretsiz deneme** ile başlayın, tüm temel özellikleri test edin!
 
 ---
 
-## 📋 Requirements
+## ✨ Özellikler
 
-| Requirement | Version |
-|-------------|---------|
+### 🤖 Yapay Zeka Destekli İçerik Üretimi
+- **GPT-4o / GPT-4 Turbo / GPT-3.5** OpenAI API entegrasyonu
+- Otomatik SEO uyumlu ürün açıklamaları ve blog yazıları
+- **DALL-E ile AI Görsel Oluşturma** (Pro)
+- Teknik doğruluk için PDF referans desteği (Pro)
+
+### 🎯 SEO Eklenti Uyumluluğu
+- **Çift Eklenti Desteği**: Rank Math ve Yoast SEO ile çalışır
+- Otomatik SEO eklenti algılama
+- Birleşik API ile kesintisiz meta veri yönetimi
+- Odak anahtar kelime optimizasyonu
+- Meta başlık ve açıklama üretimi
+
+### 📊 Schema Markup (Yapılandırılmış Veri)
+- **Product Schema** - WooCommerce ürünleri için
+- **Article Schema** - Blog yazıları için
+- **FAQ Schema** - İçerikten otomatik çıkarılır
+- **HowTo Schema** - Adım adım rehberler için
+- **Breadcrumb Schema** - Gelişmiş SERP görünümü
+- **WebPage Schema** - Tam yapılandırılmış veri
+
+### 🌍 GEO Optimizasyonu (Generative Engine Optimization)
+- E-E-A-T (Deneyim, Uzmanlık, Otorite, Güven) sinyalleri
+- İç ve dış bağlantı stratejileri
+- AI arama motorları için içerik yapısı optimizasyonu
+- Zengin snippet optimizasyonu
+
+### 🔧 Gelişmiş Özellikler
+- **Toplu İşlem** - Birden fazla yazı/ürün için içerik üretin (Pro)
+- **İlerleme Takibi** - Gerçek zamanlı ilerleme göstergeleri
+- **Rapor Dışa Aktarma** - SEO raporlarını CSV/Excel formatında indirin
+- **Kısa Açıklama Üretici** - AI destekli ürün özetleri
+- **Görsel SEO** - Otomatik alt metin ve başlık optimizasyonu
+
+---
+
+## 📋 Gereksinimler
+
+| Gereksinim | Sürüm |
+|------------|-------|
 | WordPress | 5.0+ |
 | PHP | 7.4+ |
-| WooCommerce | 4.0+ (optional, for products) |
-| Rank Math or Yoast SEO | Latest recommended |
-| OpenAI API Key | Required |
+| WooCommerce | 4.0+ (opsiyonel, ürünler için) |
+| Rank Math veya Yoast SEO | En son sürüm önerilir |
+| OpenAI API Anahtarı | Gerekli |
 
 ---
 
-## 🚀 Installation
+## 🚀 Kurulum
 
-### Method 1: Upload via WordPress Admin
-1. Download the plugin ZIP file
-2. Go to **Plugins → Add New → Upload Plugin**
-3. Select the ZIP file and click **Install Now**
-4. Activate the plugin
+### Yöntem 1: WordPress Admin Üzerinden
+1. Eklenti ZIP dosyasını indirin
+2. **Eklentiler → Yeni Ekle → Eklenti Yükle** bölümüne gidin
+3. ZIP dosyasını seçin ve **Şimdi Kur** butonuna tıklayın
+4. Eklentiyi etkinleştirin
 
-### Method 2: Manual Installation
-1. Extract the plugin folder
-2. Upload to `/wp-content/plugins/woo-ai-seo-writer/`
-3. Activate via **Plugins** menu in WordPress
-
-### Method 3: Composer (Coming Soon)
-```bash
-composer require isapehlivan/woo-ai-seo-writer
-```
+### Yöntem 2: Manuel Kurulum
+1. Eklenti klasörünü çıkarın
+2. `/wp-content/plugins/woo-ai-seo-writer/` dizinine yükleyin
+3. WordPress'te **Eklentiler** menüsünden etkinleştirin
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Yapılandırma
 
-### 1. Get Your OpenAI API Key
-1. Visit [OpenAI Platform](https://platform.openai.com/api-keys)
-2. Create a new API key
-3. Copy the key (starts with `sk-...`)
+### 1. OpenAI API Anahtarınızı Alın
+1. [OpenAI Platform](https://platform.openai.com/api-keys) adresini ziyaret edin
+2. Yeni bir API anahtarı oluşturun
+3. Anahtarı kopyalayın (`sk-...` ile başlar)
 
-### 2. Plugin Settings
-Navigate to **Woo AI SEO** in your WordPress admin menu:
+### 2. Eklenti Ayarları
+WordPress admin menüsünde **Woo AI SEO**'ya gidin:
 
 ```
-WordPress Admin → Woo AI SEO → Settings
+WordPress Admin → Woo AI SEO → Ayarlar
 ```
 
-| Setting | Description |
-|---------|-------------|
-| **OpenAI API Key** | Your secret API key from OpenAI |
-| **AI Model** | Choose GPT-4o (recommended), GPT-4 Turbo, GPT-4, or GPT-3.5 Turbo |
-| **External Link Source** | Default external reference domain (e.g., Wikipedia) |
+| Ayar | Açıklama |
+|------|----------|
+| **OpenAI API Anahtarı** | OpenAI'den aldığınız gizli API anahtarı |
+| **AI Modeli** | GPT-4o (önerilen), GPT-4 Turbo, GPT-4 veya GPT-3.5 Turbo seçin |
+| **Dış Link Kaynağı** | Varsayılan dış referans domaini (örn: Wikipedia) |
+
+### 3. Lisans Aktivasyonu
+```
+WordPress Admin → Woo AI SEO → Lisans
+```
+- **Deneme**: Otomatik olarak 15 günlük ücretsiz deneme başlar
+- **Pro**: Lisans anahtarınızı girerek tüm özellikleri açın
 
 ---
 
-## 📖 Usage
+## 📖 Kullanım
 
-### Single Post/Product Generation
+### Tekil Yazı/Ürün İçerik Üretimi
 
-1. Edit any **post** or **product** in WordPress
-2. Find the **SEO+GEO AI Assistant** meta box in the sidebar
-3. Configure options:
-   - ✅ **Generate AI Image** - Creates unique visuals with DALL-E
-   - ✅ **Generate Short Description** - AI-powered product summary
-   - 📄 **Technical PDF Reference** (optional) - Upload specs for accuracy
-4. Click **✨ Create GEO Content**
-5. Wait for the magic! ✨
+1. WordPress'te herhangi bir **yazı** veya **ürün** düzenleyin
+2. Yan panelde **SEO+GEO AI Asistanı** meta kutusunu bulun
+3. Seçenekleri yapılandırın:
+   - ✅ **AI Görsel Oluştur** - DALL-E ile benzersiz görseller (Pro)
+   - ✅ **Kısa Açıklama Oluştur** - AI destekli ürün özeti
+   - 📄 **Teknik PDF Referansı** (opsiyonel) - Doğruluk için spesifikasyonlar yükleyin (Pro)
+4. **✨ GEO İçerik Oluştur** butonuna tıklayın
+5. Sihrin gerçekleşmesini bekleyin! ✨
 
-### Bulk Processing
+### Toplu İşlem (Pro)
 
-1. Go to **Woo AI SEO → Bulk Processing Panel**
-2. Select posts/products from the list
-3. Enable desired options:
-   - AI Image Generation
-   - Short Description Generation
-4. Click **Start Selected**
-5. Monitor progress in real-time
-
-### From Posts/Products List
-
-1. Go to **Posts** or **Products** list
-2. Select items using checkboxes
-3. Choose **✨ Create Content with AI (Woo AI SEO)** from Bulk Actions
-4. Click **Apply**
+1. **Woo AI SEO → Toplu İşlem Paneli**'ne gidin
+2. Listeden yazıları/ürünleri seçin
+3. İstediğiniz seçenekleri etkinleştirin:
+   - AI Görsel Oluşturma
+   - Kısa Açıklama Oluşturma
+4. **Seçilenleri Başlat** butonuna tıklayın
+5. İlerlemeyi gerçek zamanlı takip edin
 
 ---
 
-## 🔌 API Integration
+## 🔌 API Entegrasyonu
 
-### Unified SEO Handler
+### Birleşik SEO Handler
 
-The plugin provides a unified API that works with both Rank Math and Yoast SEO:
+Eklenti, hem Rank Math hem de Yoast SEO ile çalışan birleşik bir API sağlar:
 
 ```php
-// Save SEO meta data
+// SEO meta verilerini kaydet
 WASW_SEO_Handler::save_seo_meta($post_id, [
-    'focus_keyword' => 'your keyword',
-    'seo_title' => 'SEO Title | Brand',
-    'seo_description' => 'Meta description here...',
-    'og_title' => 'OpenGraph Title',
-    'og_description' => 'OpenGraph Description',
+    'focus_keyword' => 'anahtar kelime',
+    'seo_title' => 'SEO Başlık | Marka',
+    'seo_description' => 'Meta açıklama burada...',
+    'og_title' => 'OpenGraph Başlık',
+    'og_description' => 'OpenGraph Açıklama',
 ]);
 
-// Get current SEO score
+// Mevcut SEO skorunu al
 $score = WASW_SEO_Handler::get_seo_score($post_id);
 
-// Check active SEO plugin
+// Aktif SEO eklentisini kontrol et
 $plugin = WASW_SEO_Handler::get_active_seo_plugin();
-// Returns: 'rank_math', 'yoast', or 'none'
+// Döndürür: 'rank_math', 'yoast' veya 'none'
 ```
 
-### Schema Generation
+### Lisans Kontrolü
 
 ```php
-// Generate schema for a post
-$schema_generator = new WASW_Schema();
-$schema = $schema_generator->generate_schema($post_id);
+// Pro lisans aktif mi?
+if (WASW_License::is_pro()) {
+    // Pro özelliklerini etkinleştir
+}
 
-// Get schema preview HTML
-$preview = WASW_Schema::get_schema_preview_html($post_id);
+// İçerik oluşturabilir mi? (limit kontrolü)
+$check = WASW_License::can_generate_content();
+if ($check['allowed']) {
+    // İçerik oluştur
+} else {
+    echo $check['message']; // "Günlük limit doldu" vb.
+}
 ```
 
 ---
 
-## 📊 Generated Content Structure
+## 📊 Üretilen İçerik Yapısı
 
-The AI generates content optimized for both traditional SEO and AI search engines:
+AI, hem geleneksel SEO hem de AI arama motorları için optimize edilmiş içerik üretir:
 
 ```
-📄 Content Structure
-├── 🎯 Focus Keyword (in first 150 characters)
-├── 📝 H2 Headlines with keywords
-├── 📋 HTML Tables for specifications
-├── 🔗 Internal Links to related content
-├── 🌐 External Links (nofollow) to authority sources
-├── 🖼️ Images with optimized alt text
-├── ❓ FAQ Section (auto-generates FAQPage schema)
-└── 📊 500+ words for comprehensive coverage
+📄 İçerik Yapısı
+├── 🎯 Odak Anahtar Kelime (ilk 150 karakterde)
+├── 📝 Anahtar kelimeli H2 Başlıklar
+├── 📋 Spesifikasyonlar için HTML Tablolar
+├── 🔗 İlgili içeriklere İç Linkler
+├── 🌐 Otorite kaynaklara Dış Linkler (nofollow)
+├── 🖼️ Optimize edilmiş alt metinli Görseller
+├── ❓ SSS Bölümü (FAQPage schema otomatik oluşturur)
+└── 📊 Kapsamlı kapsam için 500+ kelime
 ```
 
 ---
 
-## 🛡️ Security
+## 🛡️ Güvenlik
 
-- API keys stored securely with WordPress options API
-- Nonce verification on all AJAX requests
-- Capability checks (`manage_options`) for admin functions
-- Input sanitization and output escaping
-- XSS protection on all outputs
+- API anahtarları WordPress options API ile güvenli şekilde saklanır
+- Tüm AJAX isteklerinde nonce doğrulaması
+- Admin fonksiyonları için yetki kontrolleri (`manage_options`)
+- Girdi sanitizasyonu ve çıktı escape işlemleri
+- Tüm çıktılarda XSS koruması
 
 ---
 
-## 📈 SEO Score Guarantee
+## 📈 SEO Skor Garantisi
 
-Our AI-generated content is optimized to achieve:
+AI tarafından üretilen içerik aşağıdaki skorları hedefler:
 
-| SEO Plugin | Target Score |
-|------------|--------------|
+| SEO Eklentisi | Hedef Skor |
+|---------------|------------|
 | Rank Math | 100/100 ✅ |
-| Yoast SEO | Green (100%) ✅ |
+| Yoast SEO | Yeşil (100%) ✅ |
 
-### Optimization Checklist
-- ✅ Focus keyword in title, meta, and first paragraph
-- ✅ Proper heading hierarchy (H1 → H2 → H3)
-- ✅ Optimal content length (500+ words)
-- ✅ Internal and external links
-- ✅ Image optimization with alt text
-- ✅ Schema markup for rich snippets
-- ✅ Meta description with keyword
-- ✅ URL slug optimization
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Gemini AI support
-- [ ] Claude AI support
-- [ ] Multilingual content generation
-- [ ] Competitor analysis integration
-- [ ] Keyword research tools
-- [ ] A/B testing for titles
-- [ ] REST API endpoints
-- [ ] Gutenberg blocks
+### Optimizasyon Kontrol Listesi
+- ✅ Başlık, meta ve ilk paragrafta odak anahtar kelime
+- ✅ Doğru başlık hiyerarşisi (H1 → H2 → H3)
+- ✅ Optimal içerik uzunluğu (500+ kelime)
+- ✅ İç ve dış linkler
+- ✅ Alt metinli görsel optimizasyonu
+- ✅ Zengin snippetlar için schema markup
+- ✅ Anahtar kelimeli meta açıklama
+- ✅ URL slug optimizasyonu
 
 ---
 
-## 🤝 Contributing
+## 🗺️ Yol Haritası
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **GPL v2 or later** - see the [LICENSE](LICENSE) file for details.
+- [ ] Gemini AI desteği
+- [ ] Claude AI desteği
+- [ ] Çoklu dil içerik üretimi
+- [ ] Rakip analizi entegrasyonu
+- [ ] Anahtar kelime araştırma araçları
+- [ ] Başlıklar için A/B testi
+- [ ] REST API endpoint'leri
+- [ ] Gutenberg blokları
+- [ ] Ödeme entegrasyonu (iyzico, PayTR)
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Katkıda Bulunma
+
+Katkılarınız memnuniyetle karşılanır! Pull Request göndermekten çekinmeyin.
+
+1. Repo'yu fork edin
+2. Feature branch oluşturun (`git checkout -b feature/HarikaOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Harika özellik eklendi'`)
+4. Branch'i push edin (`git push origin feature/HarikaOzellik`)
+5. Pull Request açın
+
+---
+
+## 📄 Lisans
+
+Bu proje **GPL v2 veya üstü** altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+---
+
+## 👨‍💻 Geliştirici
 
 **İsa Pehlivan**
 
@@ -275,16 +293,16 @@ This project is licensed under the **GPL v2 or later** - see the [LICENSE](LICEN
 
 ---
 
-## ⭐ Support
+## ⭐ Destek
 
-If you find this plugin helpful, please consider:
-- ⭐ Starring the repository
-- 🐛 Reporting issues
-- 💡 Suggesting new features
-- 📣 Sharing with others
+Bu eklentiyi faydalı buluyorsanız, lütfen şunları düşünün:
+- ⭐ Repo'ya yıldız verme
+- 🐛 Hata bildirme
+- 💡 Yeni özellik önerme
+- 📣 Başkalarıyla paylaşma
 
 ---
 
 <p align="center">
-  Made with ❤️ for the WordPress community
+  WordPress topluluğu için ❤️ ile yapıldı
 </p>
