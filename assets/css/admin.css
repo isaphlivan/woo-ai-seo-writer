@@ -1,0 +1,152 @@
+:root { --primary: #4f46e5; --primary-dark: #4338ca; --bg: #f8fafc; --text: #1e293b; --success: #10b981; --warning: #f59e0b; --danger: #ef4444; --border: #e2e8f0; } 
+
+.wasw-wrap { padding: 40px; max-width: 1200px; margin: 0 auto; font-family: 'Inter', system-ui, -apple-system, sans-serif; color: var(--text); } 
+.wasw-header { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 30px; border-radius: 16px; color: white; margin-bottom: 30px; box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4); display: flex; justify-content: space-between; align-items: center; } 
+.wasw-header h1 { margin: 0; font-size: 24px; font-weight: 800; color: white; } 
+.wasw-badge { background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; margin-left: 10px; } 
+
+.wasw-nav { display: flex; gap: 15px; margin-bottom: 30px; } 
+.wasw-nav-btn { text-decoration: none; padding: 12px 20px; border-radius: 10px; font-weight: 600; color: #64748b; background: white; border: 1px solid var(--border); transition: all 0.2s; display: flex; align-items: center; gap: 8px; } 
+.wasw-nav-btn.active { background: var(--primary); color: white; border-color: var(--primary); box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2); } 
+.wasw-nav-btn:hover:not(.active) { transform: translateY(-2px); } 
+
+.wasw-card { background: white; padding: 30px; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); margin-bottom: 25px; } 
+.wasw-card h3 { margin-top: 0; font-size: 18px; color: #0f172a; border-bottom: 1px solid #f1f5f9; padding-bottom: 15px; margin-bottom: 20px; } 
+
+.wasw-btn { background: var(--primary); color: white; padding: 12px 24px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-size: 14px; } 
+.wasw-btn:hover { background: var(--primary-dark); transform: translateY(-1px); color: white; } 
+.wasw-btn-success { background: var(--success); } 
+.wasw-btn-success:hover { background: #059669; } 
+.wasw-btn-danger { background: var(--danger); } 
+
+/* API INPUT GROUP STYLES (MODERN & GLOW) */
+.wasw-input-container { position: relative; display: flex; align-items: center; width: 100%; border: 1px solid #cbd5e1; border-radius: 10px; overflow: hidden; background: white; transition: all 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.wasw-input-container:focus-within { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1); }
+.wasw-input-field { border: none !important; box-shadow: none !important; width: 100%; padding: 16px 20px; font-size: 15px; background: transparent; color: #334155; flex-grow: 1; outline: none; }
+
+.wasw-toggle-password {
+    background: transparent;
+    color: #94a3b8;
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: color 0.2s;
+    font-size: 20px;
+    border-left: 1px solid #e2e8f0;
+}
+.wasw-toggle-password:hover { color: var(--primary); background: #f8fafc; }
+
+/* Link Button */
+.wasw-link-btn { font-size: 12px; color: var(--primary); text-decoration: none; background: #eff6ff; padding: 4px 10px; border-radius: 6px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; border: 1px solid #dbeafe; }
+.wasw-link-btn:hover { background: #dbeafe; transform: translateY(-1px); }
+
+.wasw-table { width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 10px; } 
+.wasw-table th { background: #f8fafc; text-align: left; padding: 15px; font-weight: 600; color: #64748b; font-size: 12px; text-transform: uppercase; border-bottom: 1px solid var(--border); } 
+.wasw-table td { padding: 15px; border-bottom: 1px solid var(--border); font-size: 14px; color: #334155; } 
+.wasw-table tr:hover td { background: #f8fafc; } 
+.wasw-input { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.2s; } 
+.wasw-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1); }
+.wasw-label { display: block; font-weight: 600; margin-bottom: 8px; font-size: 14px; color: #334155; display:flex; align-items:center; gap:6px; } 
+
+/* Progress & Status */ 
+.wasw-status-area { margin-top: 20px; text-align: left; } 
+.wasw-progress-bg { background: var(--border); height: 12px; border-radius: 99px; overflow: hidden; } 
+.wasw-progress-bar { background: var(--success); height: 100%; width: 0%; transition: width 0.5s ease; } 
+
+.wasw-bulk-status { font-weight:bold; font-size:12px; } 
+.wasw-processing { color: #f59e0b; } 
+.wasw-done { color: #10b981; } 
+.wasw-error { color: #ef4444; } 
+
+/* Magic Button */ 
+.wasw-magic-btn { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; width: 100%; padding: 15px; border: none; border-radius: 12px; font-weight: 700; font-size: 15px; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; position: relative; overflow: hidden; } 
+.wasw-magic-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4); } 
+.wasw-magic-btn:disabled { background: #cbd5e1; cursor: not-allowed; transform: none; box-shadow: none; } 
+
+/* Switch */ 
+.switch { position: relative; display: inline-block; width: 40px; height: 20px; } 
+.switch input { opacity: 0; width: 0; height: 0; } 
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 34px; } 
+.slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 2px; bottom: 2px; background-color: white; transition: .4s; border-radius: 50%; } 
+input:checked + .slider { background-color: var(--primary); } 
+input:checked + .slider:before { transform: translateX(20px); }
+
+/* Additional helper classes */
+.wasw-toggle-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.wasw-toggle-label { font-weight: 600; color: #334155; }
+.score-badge { padding: 4px 8px; border-radius: 4px; color: white; font-weight: bold; font-size: 12px; }
+.score-good { background-color: #10b981; }
+.score-avg { background-color: #f59e0b; }
+.score-bad { background-color: #ef4444; }
+.wasw-form-group { margin-bottom: 20px; }
+
+/* Filter Bar */
+.wasw-filter-bar { display: flex; gap: 10px; margin-bottom: 20px; background: #fff; padding: 15px; border-radius: 12px; border: 1px solid var(--border); align-items: center; }
+.wasw-filter-input { padding: 10px 15px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 14px; color: #334155; outline:none; transition:border 0.2s; }
+.wasw-filter-input:focus { border-color: var(--primary); }
+.wasw-filter-group { display: flex; align-items: center; gap: 8px; }
+.wasw-filter-label { font-weight: 600; font-size: 13px; color: #64748b; }
+
+/* Pagination Fix */
+.wasw-pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wasw-pagination ul.page-numbers {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 6px;
+    background: #fff;
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.wasw-pagination li {
+    margin: 0 !important; /* Override WP defaults */
+}
+
+.wasw-pagination .page-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    line-height: 1;
+}
+
+.wasw-pagination a.page-numbers:hover {
+    background-color: #f1f5f9;
+    color: var(--primary);
+    border-color: #e2e8f0;
+}
+
+.wasw-pagination .page-numbers.current {
+    background-color: var(--primary);
+    color: white;
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+    border-color: var(--primary);
+}
+
+.wasw-pagination .page-numbers.dots {
+    background: transparent;
+    color: #94a3b8;
+    min-width: auto;
+}
