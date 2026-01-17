@@ -5,6 +5,8 @@
   <img src="https://img.shields.io/badge/Rank%20Math-100%2F100-green" alt="Rank Math">
   <img src="https://img.shields.io/badge/Yoast%20SEO-100%2F100-green" alt="Yoast SEO">
   <img src="https://img.shields.io/badge/Lisans-GPL%20v2-orange" alt="Lisans">
+      <a href="README.tr.md"><img src="https://img.shields.io/badge/lang-tr-red" alt="Türkçe"></a>
+      <a href="README.md"><img src="https://img.shields.io/badge/lang-en-blue" alt="English"></a>
 </p>
 
 <h1 align="center">🚀 Woo AI SEO Writer</h1>
