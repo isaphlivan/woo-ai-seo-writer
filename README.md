@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Lisans-GPL%20v2-orange" alt="Lisans">
       <a href="README.tr.md"><img src="https://img.shields.io/badge/lang-tr-red" alt="Türkçe"></a>
       <a href="README.md"><img src="https://img.shields.io/badge/lang-en-blue" alt="English"></a>
+      <a href="https://github.com/isaphlivan"><img src="https://img.shields.io/badge/%F0%9F%A6%88_Code-Shark-0080FF?style=for-the-badge&logoColor=white" alt="Code Shark"></a>
 </p>
 
 <h1 align="center">🚀 Woo AI SEO Writer</h1>
