@@ -14,7 +14,7 @@
 
 <p align="center">
   <strong>WordPress için Yapay Zeka Destekli SEO & GEO İçerik Üretici</strong><br>
-  <em>Rank Math & Yoast SEO ile 100/100 SEO skoru garantili!</em>
+  <em>Rank Math & Yoast SEO ile 100/100 SEO skoru garantili! 🚀🎯</em>
 </p>
 
 <p align="center">
