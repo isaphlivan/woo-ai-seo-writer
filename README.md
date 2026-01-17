@@ -10,7 +10,7 @@
       <a href="https://github.com/isaphlivan"><img src="https://img.shields.io/badge/%F0%9F%A6%88_Code-Shark-0080FF?style=for-the-badge&logoColor=white" alt="Code Shark"></a>
 </p>
 
-<h1 align="center">🚀 Woo AI SEO Writer</h1>
+<h1 align="center">🚀🚀 Woo AI SEO Writer 🎯</h1>
 
 <p align="center">
   <strong>WordPress için Yapay Zeka Destekli SEO & GEO İçerik Üretici</strong><br>
